@@ -11,7 +11,23 @@
 
 <body>
   <p>Hello world!</p>
-
+  <picture>
+ <source
+   media="(min-width: 900px)"
+   srcset="./assets/desktop.png"
+   type="image/png" >
+ <source
+   media="(min-width: 600px)"
+   srcset="./assets/tablet.png"
+   type="image/png">
+ <source
+   srcset="./assets/mobile.png"
+   type="image/png" >
+ <img
+   src="./assets/desktop.png"
+   type="image/png"
+   alt="image resolution">
+</picture>
   <script src="./index.js"></script>
 </body>
 
